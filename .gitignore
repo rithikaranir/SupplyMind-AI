@@ -1,0 +1,93 @@
+# =========================
+# Virtual Environment
+# =========================
+
+venv/
+env/
+.venv/
+
+
+# =========================
+# Python Cache Files
+# =========================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+
+# =========================
+# Environment Variables / Secrets
+# =========================
+
+.env
+.env.*
+!.env.example
+
+
+# =========================
+# Data Files
+# =========================
+
+# Raw datasets
+data/raw/
+
+# Processed datasets
+data/processed/*.csv
+
+
+# =========================
+# Machine Learning Model Files
+# =========================
+
+models/*.pkl
+models/*.joblib
+
+
+# =========================
+# Jupyter Notebook Files
+# =========================
+
+.ipynb_checkpoints/
+
+
+# =========================
+# IDE Settings
+# =========================
+
+.vscode/
+.idea/
+
+
+# =========================
+# Operating System Files
+# =========================
+
+.DS_Store
+Thumbs.db
+
+
+# =========================
+# Logs and Temporary Files
+# =========================
+
+*.log
+logs/
+
+
+# =========================
+# Python Build Files
+# =========================
+
+build/
+dist/
+*.egg-info/
+
+
+# =========================
+# Database Files
+# =========================
+
+*.db
+*.sqlite
+*.sqlite3
